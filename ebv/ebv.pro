@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    source/ebv.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    source/ebv.h
 
 FORMS    += mainwindow.ui
